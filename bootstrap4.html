@@ -36,6 +36,9 @@
                         <li class="nav-item">
                             <a href="#Contact" class="nav-link">contact</a>
                         </li>
+                        <li class="nav-item">
+                           <a href="#Features" class="nav-link">Features</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -105,7 +108,7 @@
                 <div class="text-info display-4 text-center">Portfolio</div>
                 <hr class="About">
 
-                <div class="row d-flex justify-content-around">
+                <div class="row d-flex flex-md-nowrap justify-content-around ">
                   <div class="" id="card"> 
                      <img class="image" src="https://images.unsplash.com/photo-1564644411594-c9a40e2aa4da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
                      <div class="text-center pt-4">
@@ -128,7 +131,7 @@
                   </div>
                 </div>
 
-                <div class="row d-flex justify-content-around">
+                <div class="row d-flex flex-md-nowrap justify-content-around">
                     <div class="" id="card"> 
                        <img class="image" src="https://images.unsplash.com/photo-1572295727871-7638149ea3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
                        <div class="text-center pt-4">
@@ -151,7 +154,7 @@
                     </div>
                   </div>
 
-                  <div class="row d-flex justify-content-around">
+                  <div class="row d-flex flex-md-nowrap justify-content-around">
                     <div class="" id="card"> 
                        <img class="image" src="https://images.unsplash.com/photo-1568380931596-ea98c4c8f39c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
                        <div class="text-center pt-4">
@@ -174,7 +177,7 @@
                     </div>
                   </div>
 
-                  <div class="row d-flex justify-content-around">
+                  <div class="row d-flex flex-md-nowrap justify-content-around">
                     <div class="" id="card"> 
                        <img class="image" src="https://images.unsplash.com/photo-1562679299-266edbefd6d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
                        <div class="text-center pt-4">
@@ -206,10 +209,65 @@
     <!-- Start contact section -->
        
         <div id="Contact">
+         <div class="container bg-white pb-3 pt-2">
+            <div class="text-info display-4 text-center">Contact Me</div>
+            <hr class="About">
+            <form action="/action_page.php">
+               <div class="form-group">
+                 <label for="Name"><strong>Full Name:</strong></label>
+                 <input type="text" class="form-control bg-light" placeholder="John Smith" id="email">
+               </div>
+               <div class="form-group">
+                 <label for="Email"><strong>Email address:</strong></label>
+                 <input type="email" class="form-control bg-light" placeholder="Example@gmail.com" id="">
+               </div>
+               <div class="form-group">
+                  <label for=""><strong>Message:</strong></label>
+                  <textarea name="" id="" cols="30" rows="10" class="form-control bg-light"></textarea>
+               </div>
+               <button type="submit" class="btn  btn-lg  btn-outline-info">Submit</button>
+             </form>
+           
+         </div>
             
         </div>
  
     <!-- End contact section -->
+
+    <!-- Features Section -->
+    <div id="Features">
+         <div class="container jumbotron">
+            <div class="text-info display-4 text-center">Features</div>
+            <hr class="About">
+            <div class="row text-center">
+               <div class="col-md-4">
+                  <i class="fas fa-play-circle fa-3x pt-3 text-success"></i>
+                  <h3 class="pt-4 pb-2 text-primary">Custom Animation</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ducimus non? Vitae quibusdam voluptate culpa. Exercitationem earum atque eum quia commodi in adipisci, totam quas voluptas sint ipsa nesciunt ullam?</p>
+               </div>
+
+               <div class="col-md-4">
+                  <i class="fas fa-sliders-h fa-3x pt-3 text-danger"></i>
+                  <h3 class="pt-4 pb-2 text-primary"> Content Slider</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ducimus non? Vitae quibusdam voluptate culpa. Exercitationem earum atque eum quia commodi in adipisci, totam quas voluptas sint ipsa nesciunt ullam?</p>
+               </div>
+
+               <div class="col-md-4">
+                  <i class="fab fa-wpforms fa-3x pt-3 text-warning"></i>
+                  <h3 class="pt-4 pb-2 text-primary">Contact Form</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ducimus non? Vitae quibusdam voluptate culpa. Exercitationem earum atque eum quia commodi in adipisci, totam quas voluptas sint ipsa nesciunt ullam?</p>
+               </div>
+            </div>
+
+         </div>   
+
+    </div>
+
+    <!-- End Features -->
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
