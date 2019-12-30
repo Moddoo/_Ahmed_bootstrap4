@@ -81,7 +81,7 @@ body{
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top: 40%;
+    top: 300px;
     color: rgb(243, 190, 17);
     z-index: 1;
 }
