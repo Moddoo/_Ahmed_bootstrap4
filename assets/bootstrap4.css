@@ -23,6 +23,7 @@ body{
 #font{
     position: relative;
     top: -18px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 .me{
    font-size: 30px; 
@@ -104,7 +105,7 @@ body{
 
    /* About Section */
    #About{
-     background-color: rgb(116, 8, 8); 
+     background-color: rgba(116, 8, 8, 0.1); 
      padding:60px;
    }
     
@@ -129,13 +130,13 @@ body{
 
    /* Start Portfolio section */
    #Portfolio{
-       background-color: wheat;
+       background-color: rgba(245, 222, 179, 0.3);
        padding:60px 0 20px 0;
 
    }
    #card{
        height:400px;
-       width: 350px;
+       width: 62vh;
        box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
        margin:3px 3px 20px 0;
        overflow: hidden;
@@ -144,7 +145,7 @@ body{
        width: 100%;
        height: 320px;
        padding: 3px;
-       transition: 0.8s;
+       transition: 0.3s;
    }
    #card:hover img{
     /* transform: scale(1,1.5); */
@@ -169,10 +170,10 @@ body{
 
    /* End Contact */
 
-   /* Start Features */
+   /* Start Resources */
 
-   #Features{
+   #Resources{
     padding:60px 0 20px 0;
     background-color: rgb(134, 13, 134);
    }
-   /* End Features */
+   /* End Resources */
