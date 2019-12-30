@@ -28,9 +28,9 @@ body{
 }
 .me{
    font-size: 30px; 
-   position: absolute;
-   /* top: -18px; */
-   top: 9px;
+   position: relative;
+   top: -18px;
+   width:200px;
 }
 .navbar-nav li{
     padding-right: .7rem;
