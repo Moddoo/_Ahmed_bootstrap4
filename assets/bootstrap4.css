@@ -13,6 +13,7 @@ body{
     font-size: .9rem;
     letter-spacing: .1rem;
     background-color: rgba(0, 0, 0, 0.6)!important;
+    /* position: relative; */
 }
 .navbar-nav{
     text-transform: uppercase;
@@ -27,8 +28,9 @@ body{
 }
 .me{
    font-size: 30px; 
-   position: relative;
-   top: -18px;
+   position: absolute;
+   /* top: -18px; */
+   top: 9px;
 }
 .navbar-nav li{
     padding-right: .7rem;
