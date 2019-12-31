@@ -171,3 +171,8 @@ body{
     background-color: rgba(134, 13, 134, 0.4);
    }
    /* End Resources */
+   /* Start Info */
+
+   #Info{
+       background-color: rgba(5, 102, 102, 0.2);
+   }
