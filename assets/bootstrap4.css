@@ -8,12 +8,11 @@ body{
     padding: 0;
 }
 /* navigation */
-.navbar{
+.navbar {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
     background-color: rgba(0, 0, 0, 0.6)!important;
-    /* position: relative; */
 }
 .navbar-nav{
     text-transform: uppercase;
@@ -168,7 +167,7 @@ body{
    /* Start Resources */
 
    #Resources{
-    padding:60px 0 20px 0;
-    background-color: rgb(134, 13, 134);
+    padding:70px 0 20px 0;
+    background-color: rgba(134, 13, 134, 0.4);
    }
    /* End Resources */
